@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser is opening]]>
+    </line>
+    <line>
+      <![CDATA[DashBord]]>
+    </line>
+    <line>
+      <![CDATA[custom order]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34693" started-at="2021-01-05T11:19:23Z" finished-at="2021-01-05T11:19:57Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="34693" started-at="2021-01-05T11:19:23Z" finished-at="2021-01-05T11:19:57Z">
+      <class name="ordofyFeaturesTestClasses.Ordofymultytest">
+        <test-method status="PASS" signature="clickNewOrder()[pri:0, instance:ordofyFeaturesTestClasses.Ordofymultytest@68c4039c]" name="clickNewOrder" duration-ms="11904" started-at="2021-01-05T16:49:34Z" finished-at="2021-01-05T16:49:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[DashBord]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickNewOrder -->
+      </class> <!-- ordofyFeaturesTestClasses.Ordofymultytest -->
+      <class name="ordofyFeaturesTestClasses.ordofymultitest1">
+        <test-method status="PASS" signature="enterordofy()[pri:0, instance:ordofyFeaturesTestClasses.ordofymultitest1@5e5792a0]" name="enterordofy" duration-ms="11331" started-at="2021-01-05T16:49:23Z" finished-at="2021-01-05T16:49:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is opening]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- enterordofy -->
+      </class> <!-- ordofyFeaturesTestClasses.ordofymultitest1 -->
+      <class name="ordofyFeaturesTestClasses.CustomOrderTest">
+        <test-method status="PASS" signature="clickNewOrder()[pri:0, instance:ordofyFeaturesTestClasses.CustomOrderTest@ae45eb6]" name="clickNewOrder" duration-ms="11442" started-at="2021-01-05T16:49:46Z" finished-at="2021-01-05T16:49:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[custom order]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickNewOrder -->
+      </class> <!-- ordofyFeaturesTestClasses.CustomOrderTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

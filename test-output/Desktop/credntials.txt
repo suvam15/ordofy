@@ -1,0 +1,14 @@
+ 
+
+http://192.168.1.49:4300/  test env ip
+
+http://192.168.1.17:4500/signup  // local
+
+ akash1@gmail.com
+(4:29:59 PM) a12345678
+
+
+ akash1@gmail.com(a12345678)
+(6:32:19 PM) abcd@gmail.com(123456)
+(6:33:20 PM) tejumurthy1997@gmail.com(a123456789)
+(6:33:34 PM) last one is buyer

@@ -1,0 +1,19 @@
+Test28
+
+android
+
+com.mrk.ecom.mrkzevarapplication
+
+com.mrk.ecom.mrkzevarapplication.LoginScreen
+
+DesiredCapabilities caps = new DesiredCapabilities();
+		caps.setCapability("platformName", "android");
+		caps.setCapability("version", "9");
+		caps.setCapability("deviceName", "Test28");
+		caps.setCapability("udid", "emulator-5554");
+		caps.setCapability("apppackage", "com.mrk.ecom.mrkzevarapplication");
+		caps.setCapability("appactivity", "com.mrk.ecom.mrkzevarapplication.LoginScreen");
+
+
+
+An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.mrk.ecom.mrkzevarapplication' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\Mrk01\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell am start -W -n com.mrk.ecom.mrkzevarapplication/com.mrk.ecom.mrkzevarapplication.LoginScreen -S' exited with code 255'; Stderr: 'Security exception: Permission Denial: starting Intent { flg=0x10000000 cmp=com.mrk.ecom.mrkzevarapplication/.LoginScreen } from null (pid=24709, uid=2000) not exported from uid 10086 java.lang.SecurityException: Permission Denial: starting Intent { flg=0x10000000 cmp=com.mrk.ecom.mrkzevarapplication/.LoginScreen } from null (pid=24709, uid=2000) not exported from uid 10086 at com.android.server.am.ActivityStackSupervisor.checkStartAnyActivityPermission(ActivityStackSupervisor.java:1788) at com.android.server.am.ActivityStarter.startActivity(ActivityStarter.java:717) at com.android.server.am.ActivityStarter.startActivity(ActivityStarter.java:544) at com.android.server.am.ActivityStarter.startActivityMayWait(ActivityStarter.java:1099) at com.android.server.am.ActivityStarter.execute(ActivityStarter.java:486) at com.android.server.am.ActivityManagerService.startActivityAndWait(ActivityManagerService.java:5234) at com.android.server.am.ActivityManagerShellCommand.runStartActivity(ActivityManagerShellCommand.java:474) at com.android.server.am.ActivityManagerShellCommand.onCommand(ActivityManagerShellCommand.java:161) at android.os.ShellCommand.exec(ShellCommand.java:103) at com.android.server.am.ActivityManagerService.onShellCommand(ActivityManagerService.java:16012) at android.os.Binder.shellCommand(Binder.java:634) at android.os.Binder.onTransact(Binder.java:532) at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:3592) at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:3291) at android.os.Binder.execTransact(Binder.java:731)'; Code: '255'
